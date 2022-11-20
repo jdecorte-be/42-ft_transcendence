@@ -3,4 +3,6 @@
 Use :
 For init use 'yarn' in file
 
-For start use 'yarn start:dev'
+For start client use 'yarn start:dev:client'
+
+For start server use 'yarn start:dev:server'

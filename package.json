@@ -1,0 +1,18 @@
+{
+  "name": "@s19/ft_transcendence",
+  "private": true,
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "start:dev:client": "yarn workspace client start:dev",
+    "start:dev:server": "yarn workspace server start:dev",
+    "start:prod:client": "yarn workspace client start:prod",
+    "start:prod:server": "yarn workspace server start:prod"
+  }
+}
